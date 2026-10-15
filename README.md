@@ -5,13 +5,25 @@ clear installation status, and recovery safeguards.
 
 ## Downloads
 
-No public binary release is available yet. The first download will be published
-here only after Developer ID signing, Apple notarization, stapling, and Gatekeeper
-verification have passed.
+[Download Upkeep for macOS](https://github.com/phalvorsen1/Upkeep-Releases/releases/latest/download/Upkeep-notarized.zip)
 
-Once available, downloads will appear on the [Releases page](https://github.com/phalvorsen1/Upkeep-Releases/releases).
+Upkeep 1.1.0 is a universal Apple Silicon + Intel build for macOS 14 or later.
+It is Developer ID signed, notarized by Apple, and stapled. The released ZIP has
+passed signature, checksum, stapled-ticket and Gatekeeper verification.
+
+Versioned downloads appear on the [Releases page](https://github.com/phalvorsen1/Upkeep-Releases/releases).
 Release assets will include the notarized application ZIP, release notes, and a
 SHA-256 checksum file.
+
+## Install
+
+1. Download and unzip the release.
+2. Move Upkeep.app to Applications, then open it.
+3. Follow Upkeep's permission setup. Some updates still require administrator
+   approval, vendor license review, or action in the Mac App Store.
+
+Upkeep retains its legacy AppUpdater bundle identity to preserve existing
+settings and update history. Do not delete your existing history to upgrade.
 
 ## About this repository
 
